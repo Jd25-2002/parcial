@@ -2,7 +2,7 @@
     <h1>Clientes</h1>
     <ul>
         <li *ngFor="let item of array; let i = index">
-            {{item.name}} <button (click)="onComplete(i)" class="btnCompleted">Actualizar</button>
+            <input type="text" [value]="item.name" (input)="changeInput($event,i)" [readonly]="state"> <button (click)="onComplete(i)"  class="btnCompleted">Actualizar</button>
             <button (click)="onDelete(i)" class="btnDelete">Eliminar</button>
         </li>
     </ul>
