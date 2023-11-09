@@ -1,0 +1,8 @@
+<main class="container_add-task">
+    <form (ngSubmit)="onSubmit()">
+        <h1>Nuevo Cliente</h1>
+        <input type="text" placeholder="Nombre completo del Cliente" class="task_name" id="name" name="name" [(ngModel)]="task.name"/>
+        <button class="btnSubmit">Enviar</button>
+
+    </form>
+</main>

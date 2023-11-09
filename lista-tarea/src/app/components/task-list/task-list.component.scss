@@ -1,0 +1,20 @@
+main.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    margin: 20px 15% 20px 15%;
+    background-color: rgb(213, 212, 211);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: monospace;
+
+    & h1{
+        text-align: center;
+    }
+
+    & ul li{
+        font-size: larger;
+    }
+}

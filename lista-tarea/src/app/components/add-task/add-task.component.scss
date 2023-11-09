@@ -1,0 +1,36 @@
+main.container_add-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(246, 244, 248);
+  color: black;
+
+  & form {
+    padding: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+
+    & h1{
+        text-align: center;
+    }
+
+    & input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #111010;
+      border-radius: 5px;
+    }
+
+    & button.btnSubmit {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

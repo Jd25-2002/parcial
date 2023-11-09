@@ -1,0 +1,12 @@
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(246, 244, 248);
+    height: 100vh;
+    margin: 0 15% 0 15%;
+    border-radius: 5px;
+    font-family: monospace;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

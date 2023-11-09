@@ -1,0 +1,39 @@
+main.show-task-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  margin: 20px 15% 20px 15%;
+  background-color: rgb(213, 212, 211);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: monospace;
+
+  & ul li {
+    font-size: larger;
+
+    & button.btnCompleted {
+      background-color: green;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 0 5px 0 0;
+    }
+
+    & button.btnDelete {
+        background-color: red;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+  }
+
+  & h1 {
+    text-align: center;
+  }
+}

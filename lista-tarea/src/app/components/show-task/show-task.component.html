@@ -1,0 +1,9 @@
+<main class="show-task-container">
+    <h1>Clientes</h1>
+    <ul>
+        <li *ngFor="let item of array; let i = index">
+            {{item.name}} <button (click)="onComplete(i)" class="btnCompleted">Actualizar</button>
+            <button (click)="onDelete(i)" class="btnDelete">Eliminar</button>
+        </li>
+    </ul>
+</main>
